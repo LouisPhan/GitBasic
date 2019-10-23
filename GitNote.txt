@@ -11,6 +11,7 @@ git config --global user.name	"trog đây là tên người dùng"
 git log -> dùng để xem lịch sử 
 
 git show -> xem nội dung trong file
- + sau git show sẽ là một đoạn mã của file ( 
+ + sau git show sẽ là một đoạn mã của file ( đoạn mã sẽ có khi git log) 
+	vd: git show mã code file ở đây
 
 git diff -> để xem nội dung thay đổi của cách file được modify

@@ -1,4 +1,4 @@
-﻿mkdir -> create a folder using Git
+﻿mkdir -> tạo folder bằng trong màn hình git bash
 phải có file README.md -> để mô tả project sử dụng cho cái gì
 
 -m dùng để miêu tả file commit
@@ -19,4 +19,20 @@ git diff -> để xem nội dung thay đổi của cách file được modify
 git checkout -> quay lại nội dụng sau khi modify ( phải save trên project)
 	     -> nằm trong working directory.
 git reset -> sau khi đã add lên staging area dùng git reset để trả về working directory
-	
+======	
+brach là nhánh, master luôn là brach chính để chạy server
+git brach để xem con trỏ trỏ vào brach nào
+
+git checkout -b <tên brach mới tạo> // chuyển qua brach mới lun
+
+git checkout <tên brach> // di chuyển con trỏ tới brach chọn 
+
+git merge -> dùng để ghép của một brach này một brach khác
+* lưu ý:
+git checkout A
+git merge B
+// phải checkout con trỏ có trong brach A ko rồi mới có thể merge B vào A
+
+git brach -D <tên brach cần xoá>
+// phải đảm bảo repository phải sạch sẽ, sau khi ghép và chắc ăn rồi 
+có thể xoá nếu ko dùng brach đó nữa.

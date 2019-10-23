@@ -15,3 +15,8 @@ git show -> xem nội dung trong file
 	vd: git show mã code file ở đây
 
 git diff -> để xem nội dung thay đổi của cách file được modify
+
+git checkout -> quay lại nội dụng sau khi modify ( phải save trên project)
+	     -> nằm trong working directory.
+git reset -> sau khi đã add lên staging area dùng git reset để trả về working directory
+	

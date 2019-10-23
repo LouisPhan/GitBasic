@@ -1,0 +1,14 @@
+﻿mkdir -> create a folder using Git
+phải có file README.md -> để mô tả project sử dụng cho cái gì
+
+-m dùng để miêu tả file commit
+vd: git commit -m 'trong đây là câu miêu tả'.
+
+nếu git lần đầu
+git config --global user.email "trong đây là email của mình"
+git config --global user.name	"trog đây là tên người dùng"
+
+git log -> dùng để xem lịch sử 
+
+git show -> xem nội dung trong file
+git diff -> để xem nội dung thay đổi của cách file được modify

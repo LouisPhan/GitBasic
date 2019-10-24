@@ -1,4 +1,4 @@
-﻿mkdir -> tạo folder bằng trong màn hình git bash
+mkdir -> tạo folder bằng trong màn hình git bash
 phải có file README.md -> để mô tả project sử dụng cho cái gì
 
 -m dùng để miêu tả file commit
@@ -53,4 +53,4 @@ git push -u origin master
 
 git config --global credential.helper "cache--timeout=18000" // sau timeout là thời gian lưu tk và mật khẩu. Sau thời gian đó sẽ phải rõ lại tk và mk
 
-git config --global credential.helper store
+git config --global credential.helper store// lưu tk và mk vào ổ đĩa ko cần nhập lại. Tính bảo mật ko cao (not recommend)

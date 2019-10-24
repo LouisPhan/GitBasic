@@ -38,3 +38,5 @@ git brach -D <tên brach cần xoá>
 có thể xoá nếu ko dùng brach đó nữa.
 
 git reset --soft <mã của commit> // dùng để trả từ reponsity xuống staging area
+git reset --mixed <mã của commit> // dùng để trả từ reponsity xuống working directory
+git reset --hard <mã của commit> // xoá luôn file, xoá luôn cả code trước đó *Cẩn thận khi dùng*

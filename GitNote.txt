@@ -51,4 +51,6 @@ git remote add origin <link github>
 
 git push -u origin master 
 
-git config --global credential.helper "cache--timeout=18000"
+git config --global credential.helper "cache--timeout=18000" // sau timeout là thời gian lưu tk và mật khẩu. Sau thời gian đó sẽ phải rõ lại tk và mk
+
+git config --global credential.helper store

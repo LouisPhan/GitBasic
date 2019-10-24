@@ -40,3 +40,11 @@ có thể xoá nếu ko dùng brach đó nữa.
 git reset --soft <mã của commit> // dùng để trả từ reponsity xuống staging area
 git reset --mixed <mã của commit> // dùng để trả từ reponsity xuống working directory
 git reset --hard <mã của commit> // xoá luôn file, xoá luôn cả code trước đó *Cẩn thận khi dùng*
+
+git revert <mã của commit>
+
+.gitignore // tạo ra file .gitignore và rõ vào tên của cái file mà mình ko muốn nó hiện thị khi rõ status (file đó phải chưa đc add và commit)
+===============================
+Github
+
+git remote add origin <link github>

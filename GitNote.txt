@@ -47,6 +47,8 @@ git revert <mã của commit>
 ===============================
 Github
 
+git remote // xem đang bên git web nào
+
 git remote add origin <link github>
 
 git push -u origin master 

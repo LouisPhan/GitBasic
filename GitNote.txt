@@ -61,4 +61,4 @@ git clone // dùng để tải project tử reponsity về máy
 
 git pull // để lấy code khi bên máy kia push code lên rồi
 
-git push origin <tên branch>
+git push <tên của git web trên local> <tên branch>

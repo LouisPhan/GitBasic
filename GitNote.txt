@@ -36,3 +36,5 @@ git merge B
 git brach -D <tên brach cần xoá>
 // phải đảm bảo repository phải sạch sẽ, sau khi ghép và chắc ăn rồi 
 có thể xoá nếu ko dùng brach đó nữa.
+
+git reset --soft <mã của commit> // dùng để trả từ reponsity xuống staging area

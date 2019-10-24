@@ -48,3 +48,7 @@ git revert <mã của commit>
 Github
 
 git remote add origin <link github>
+
+git push -u origin master 
+
+git config --global credential.helper "cache--timeout=18000"
